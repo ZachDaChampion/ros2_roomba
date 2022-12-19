@@ -1,0 +1,11 @@
+<launch>
+
+<!-- Include create_2.launch from create_bringup package -->
+<include file="$(find-pkg-share create_bringup)/launch/create_2.launch" />
+
+<!-- Start simplecontroller node -->
+<node pkg="simple_controller" exec="simplecontroller" name="simple_controller_1" />
+
+<!-- Start odom_printer node -->
+<!-- <node pkg="simple_controller" exec="odom_printer" name="odom_printer_1" /> -->
+</launch>

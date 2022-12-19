@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/zachc/ros2_roomba/install/create_driver/include/**",
+        "/home/zachc/ros2_roomba/install/create_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/zachc/ros2_roomba/src/create_robot/create_driver/include/**",
+        "/home/zachc/ros2_roomba/src/libcreate/include/**",
+        "/home/zachc/ros2_roomba/src/simple_controller/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
